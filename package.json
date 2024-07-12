@@ -1,0 +1,41 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "axios": "^0.21.4",
+    "laravel-mix": "^6.0.29",
+    "lodash": "^4.17.19",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.12"
+  },
+  "dependencies": {
+    "sweetalert2": "^11.1.5"
+  },
+  "name": "Gestion-Presupuestal-Nikken",
+  "description": "<p align=\"center\"><a href=\"https://laravel.com\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg\" width=\"400\"></a></p>",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pzric/Gestion-Presupuestal-Nikken.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pzric/Gestion-Presupuestal-Nikken/issues"
+  },
+  "homepage": "https://github.com/pzric/Gestion-Presupuestal-Nikken#readme"
+}
