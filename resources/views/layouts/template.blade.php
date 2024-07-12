@@ -40,14 +40,14 @@
         [x-cloak] { display: none }
     </style>
 
-    <livewire:styles />
+    @livewireStyles
 
 </head>
 
 <body class="bg-gray-300 font-family-karla flex">
     @yield('content')
 
-    <livewire:scripts />
+    @livewireScripts
 
     @stack('js')
     <script type="text/javascript">

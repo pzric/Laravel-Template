@@ -156,6 +156,8 @@ return [
     */
 
     'domain' => env('SESSION_DOMAIN', null),
+    'same_site' => 'lax', // Puedes cambiarlo a 'strict' o 'none' según tus necesidades
+
 
     /*
     |--------------------------------------------------------------------------
